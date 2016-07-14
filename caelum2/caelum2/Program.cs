@@ -10,15 +10,17 @@ namespace caelum2
     {
         static void Main(string[] args)
         {
-            int soma =0;
-
-            for ( int i = 0; i <100; i++)
+            int numeros = 0;
+            for (int i = 0; i < 100; i++)
             {
-
-                soma = soma + 1;
-                
-                Console.WriteLine("Numero:"  + soma);
+                numeros += 1;
+                if (numeros % 3 == 0)
+                {
+                    Console.WriteLine("Numeros "+ numeros);
+                }
             }
+            
+
             Console.ReadKey();
 
 
