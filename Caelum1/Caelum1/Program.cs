@@ -11,11 +11,11 @@ namespace Caelum1
         static void Main(string[] args)
         {
             double valorInvestido = 1000.0;
-            int i = 1;
+            int i = 0;
             while (i <= 12) {
                 valorInvestido = valorInvestido * 1.01;
                 i += 1;
-                Console.WriteLine("Valor investido agora é " + valorInvestido);
+                Console.WriteLine(" /n /n Valor investido agora do mês:"+i +" "+"= " + valorInvestido);
             }
             
 
