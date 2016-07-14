@@ -11,10 +11,10 @@ namespace caelum2
         static void Main(string[] args)
         {
             int numeros = 0;
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 30; i++)
             {
                 numeros += 1;
-                if (numeros % 3 == 0)
+                if (numeros % 4 == 0)
                 {
                     Console.WriteLine("Numeros "+ numeros);
                 }
