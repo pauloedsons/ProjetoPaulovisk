@@ -14,8 +14,8 @@ namespace CaelumPorperts
     //as propriedades ao invés dos atributos diretamente.
 
 
-    class Conta
-    {
+   public class Conta
+    {   
         private int numero = 20;
         private int saldo = 53;
                       

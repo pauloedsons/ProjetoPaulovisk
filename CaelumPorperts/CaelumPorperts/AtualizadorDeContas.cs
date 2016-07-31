@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace CaelumPorperts
 {
-    class AtualizadorDeContas
+      internal class AtualizadorDeContas
     {
+
+
+         int  Atualiza(Conta conta)
+        {
+
+
+
+        }
     }
 }
