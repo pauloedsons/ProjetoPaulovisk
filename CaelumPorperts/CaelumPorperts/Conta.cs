@@ -64,6 +64,9 @@ namespace CaelumPorperts
 
             Console.WriteLine("resultado:" + c.Saldo);
 
+            //Então devemos utilizar properties toda vez que queremos expora  lguma informação da classe. 
+            //Nuncadeve - mos expor atributos da classe(utilizandoo public),pois nunca queremos expor os 
+            //detalhes deimplemen - tação da classe.
 
         }
 
